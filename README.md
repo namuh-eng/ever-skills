@@ -14,6 +14,8 @@ Ever is not yet listed on the Chrome Web Store. Install it manually:
 
 ### Step 1 — Download the extension
 
+> **Note:** The extension bundle is currently being prepared and will be uploaded to the [releases page](https://github.com/namuh-eng/forever-agent/releases) soon. Check back shortly!
+
 Download the latest `.zip` from the [Ever releases page](https://github.com/namuh-eng/forever-agent/releases) and unzip it.
 
 ### Step 2 — Load in Chrome
