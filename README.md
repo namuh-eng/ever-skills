@@ -8,36 +8,42 @@ Skills are reusable recipes you can run with the Ever CLI. Each skill folder con
 - A `SKILL.md` — describes what the skill does and how to invoke it
 - A `recipes/` folder — JavaScript/TypeScript files you can run via `ever eval`
 
+---
+
 ## Installing the Ever Chrome Extension
 
-Ever is not yet listed on the Chrome Web Store. Install it manually:
+### Step 1 — Download the zip
 
-### Step 1 — Download the extension
+Go to the [latest release](https://github.com/namuh-eng/ever-skills/releases/latest) and download `everextension-0.1.0-chrome.zip`.
 
-> **Note:** The extension bundle is currently being prepared and will be uploaded to the [releases page](https://github.com/namuh-eng/forever-agent/releases) soon. Check back shortly!
+### Step 2 — Unzip it
 
-Download the latest `.zip` from the [Ever releases page](https://github.com/namuh-eng/forever-agent/releases) and unzip it.
+Unzip the file anywhere on your computer. You'll get a folder with the extension files inside.
 
-### Step 2 — Load in Chrome
+```bash
+unzip everextension-0.1.0-chrome.zip -d ever-extension
+```
 
-1. Open Chrome and go to `chrome://extensions`
-2. Enable **Developer mode** (toggle in the top-right corner)
+### Step 3 — Load in Chrome
+
+1. Open Chrome and navigate to `chrome://extensions`
+2. Enable **Developer mode** using the toggle in the top-right corner
 3. Click **Load unpacked**
-4. Select the unzipped extension folder
+4. Select the unzipped `ever-extension` folder
 
-The Ever icon will appear in your Chrome toolbar.
+The Ever icon will appear in your Chrome toolbar. Your extension ID will be stable across reinstalls.
 
-### Step 3 — Sign in
+### Step 4 — Sign in
 
-Click the Ever icon to open the side panel and sign in with Google at [foreverbrowsing.com](https://foreverbrowsing.com).
+Click the Ever icon → the side panel opens → sign in with Google.
 
-### Step 4 — Install the CLI
+### Step 5 — Install the CLI (optional)
 
 ```bash
 npm install -g @ever/cli
 ```
 
-Verify it's working:
+Verify:
 
 ```bash
 ever --version
