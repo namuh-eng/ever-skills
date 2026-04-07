@@ -100,8 +100,7 @@ Native `<select>` elements cannot be clicked directly. Use these instead:
 | Command | Description |
 |---------|-------------|
 | `ever extract` | Page content as readable markdown (no [id] annotations) |
-| `ever screenshot` | Save viewport screenshot (JPEG q75) to current directory |
-| `ever screenshot --dir path/` | Save to specific directory (auto-generates filename, creates dir if needed) |
+| `ever screenshot` | Save viewport screenshot (JPEG q75) to temp directory |
 | `ever screenshot --output path.jpg` | Save to exact file path |
 
 **When to use `extract` vs `snapshot`:**

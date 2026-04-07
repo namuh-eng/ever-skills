@@ -93,8 +93,12 @@ HELP
     esac
   done
 
-  printf "[%s] Installing Ever CLI...\n" "$PROJECT_NAME"
-  npm install -g @ever/cli
+  if command -v ever &>/dev/null; then
+    printf "[%s] Ever CLI already installed ($(ever --version 2>/dev/null || echo 'unknown version')). Skipping.\n" "$PROJECT_NAME"
+  else
+    printf "[%s] Installing Ever CLI...\n" "$PROJECT_NAME"
+    npm install -g @ever/cli
+  fi
 
   printf "\n[%s] Installing skills...\n" "$PROJECT_NAME"
   npx skills add "$REPO_OWNER/$REPO_NAME"
