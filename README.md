@@ -22,7 +22,7 @@ Install a skill, and your AI assistant immediately knows how to control your bro
 If you already have the Chrome extension loaded and signed in:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/namuh-eng/ever-skills/main/install.sh | bash
+bash <(curl -fsSL https://raw.githubusercontent.com/namuh-eng/ever-skills/main/install.sh)
 ```
 
 This installs the CLI, adds skills to your AI coding assistant, verifies everything works, and optionally prompts to star the repo. Pass `--skip-star-prompt` or set `SKIP_STAR_PROMPT=1` to suppress the star prompt (e.g. in CI).
