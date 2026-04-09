@@ -51,7 +51,7 @@ Click the Ever icon in the Chrome toolbar → the side panel opens → sign in w
 ### Step 3 — Install the CLI
 
 ```bash
-npm install -g @ever/cli
+npm install -g @everbrowser/cli
 ```
 
 Verify the installation:
@@ -108,7 +108,7 @@ If your tool doesn't read skill directories, add this to your project's `AGENTS.
 ```markdown
 ## Browser Automation
 
-Use the `ever` CLI for browser automation. Install: `npm install -g @ever/cli`.
+Use the `ever` CLI for browser automation. Install: `npm install -g @everbrowser/cli`.
 
 Core workflow:
 1. `ever start --url <url>` — Create browser session
