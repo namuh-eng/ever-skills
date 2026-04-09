@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "skills": {
+    "ever-browser": {
+      "source": "namuh-eng/ever-skills",
+      "sourceType": "github",
+      "computedHash": "5627f2ad7b23b7aca11ded3e5cbee661033f53f904a97d1f5894984959002bab"
+    }
+  }
+}
